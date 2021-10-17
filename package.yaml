@@ -1,5 +1,10 @@
 name:    reddit-scrape
-version: "0.0.0"
+version: "0.0.1"
+category: Web Scraping,Library
+maintainer: Rickard Andersson <gonz@severnatazvezda.com>
+synopsis: Library for getting links from a sub-reddit
+license: BSD2
+license-file: LICENSE.txt
 
 dependencies:
 
@@ -8,6 +13,10 @@ dependencies:
 - rio
 - http-client
 - http-client-tls
+
+extra-source-files:
+- README.md
+- LICENSE.txt
 
 default-extensions:
 - ApplicativeDo
